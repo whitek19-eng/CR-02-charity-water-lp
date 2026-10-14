@@ -3,45 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <meta name="description" content="Help make clean water part of everyday life for more families.">
+    <title>Hydration Shouldn’t Need Permission | charity: water</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+    <!-- The header keeps the charity: water logo and page navigation together. -->
+    <header class="site-header">
+        <a class="brand-logo" href="#top" aria-label="charity: water home">
+            <img src="https://d11sa1anfvm2xk.cloudfront.net/media/downloads/logos/cw_horizontal_white.jpg" alt="charity: water">
+        </a>
+        <a class="header-link" href="https://www.charitywater.org/">Visit charity: water</a>
+    </header>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+    <main id="main-content">
+        <!-- The hero introduces the campaign and its main action. -->
+        <section class="hero" id="top" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">A little more room in your day</p>
+                <h1 id="hero-title">Hydration Shouldn’t Need Permission.</h1>
+                <p class="hero-description">Your day already has enough deadlines. Clean water should be part of everyday life, not another task. Help make that possible for more families.</p>
+                <a class="button" href="https://www.charitywater.org/">SUPPLY CLEAN WATER <span aria-hidden="true">→</span></a>
+                <p class="hero-note">A future where clean water is close to home starts with all of us.</p>
+            </div>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+            <!-- Replace this clearly marked placeholder with an approved campaign photo. -->
+            <figure class="photo-placeholder">
+                <div class="photo-scene" aria-hidden="true"></div>
+                <figcaption><span>CHARITY: WATER PHOTO PLACEHOLDER</span> Add an authentic campaign photo here</figcaption>
+            </figure>
+        </section>
+
+        <!-- The comparison connects a familiar student schedule to water access. -->
+        <section class="calendar-section" aria-labelledby="calendar-title">
+            <div class="section-heading">
+                <p class="eyebrow">The everyday stuff should stay everyday</p>
+                <h2 id="calendar-title">Your calendar is full enough.</h2>
+                <p>For many families, finding water can take time from school, work, and rest. Clean water should be a given, not one more thing to plan around.</p>
+            </div>
+
+            <div class="calendar-comparison">
+                <div class="calendar-panel student-calendar">
+                    <div class="calendar-topline"><span>MONDAY</span><span>YOUR WEEK</span></div>
+                    <h3>A day on campus</h3>
+                    <p class="calendar-event"><span class="event-time">9:00</span> Lecture</p>
+                    <p class="calendar-event"><span class="event-time">12:00</span> Lunch with friends</p>
+                    <p class="calendar-event"><span class="event-time">3:00</span> Study session</p>
+                    <p class="calendar-event free-time"><span class="event-time">ANYTIME</span> Get a drink of water</p>
+                </div>
+
+                <div class="calendar-divider" aria-hidden="true">≠</div>
+
+                <div class="calendar-panel water-calendar">
+                    <div class="calendar-topline"><span>EVERY DAY</span><span>FOR TOO MANY</span></div>
+                    <h3>Water can become a task</h3>
+                    <p class="calendar-event"><span class="event-time">FIRST</span> Find a water source</p>
+                    <p class="calendar-event"><span class="event-time">NEXT</span> Collect what the family needs</p>
+                    <p class="calendar-event"><span class="event-time">THEN</span> Carry it home</p>
+                    <p class="calendar-event free-time"><span class="event-time">THE GOAL</span> Water close to home</p>
+                </div>
+            </div>
+            <p class="calendar-caption">Every community is different. The goal is simple: make clean water part of everyday life.</p>
+        </section>
+
+        <!-- A short mission statement explains why the campaign matters. -->
+        <section class="mission" aria-labelledby="mission-title">
+            <div class="mission-mark" aria-hidden="true"><span>W</span></div>
+            <div class="mission-copy">
+                <p class="eyebrow">Water changes what’s possible</p>
+                <h2 id="mission-title">More time for what matters.</h2>
+                <p>charity: water is a nonprofit working to bring clean and safe water to people around the world. When water is closer to home, families have more time for the things that make a life: learning, earning, and being together.</p>
+                <a class="text-link" href="https://www.charitywater.org/">Get to know charity: water <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <!-- This campaign statement is kept prominent and easy to understand. -->
+        <section class="donation-note" aria-label="Donation commitment">
+            <p>100% of public donations go directly to water projects.</p>
+        </section>
+    </main>
+
+    <!-- The footer repeats the brand and provides a clear destination. -->
+    <footer class="site-footer">
+        <p class="footer-brand">charity: water <span>OFFICIAL LOGO PLACEHOLDER</span></p>
+        <p>Clean water belongs in every day.</p>
+        <a href="https://www.charitywater.org/">charitywater.org <span aria-hidden="true">↗</span></a>
+    </footer>
 </body>
 </html>
